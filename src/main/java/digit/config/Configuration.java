@@ -89,4 +89,8 @@ public class Configuration {
     //SMSNotification
     @Value("${egov.sms.notification.topic}")
     private String smsNotificationTopic;
+
+    @Value("${est.kafka.create.topic}")
+    private String kafkacreatetopic;
+
 }
